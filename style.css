@@ -1,10 +1,352 @@
+div {
+  outline: 0px dashed green;
+  height: 302px;
+}
+
+#logoPNG {
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+  
+}
+#delicious {
+  float: left;
+  height: 25px;
+  margin-top: 65px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  font-size: 35px;
+  font-style:italic;
+  font-family:pacifico;
+  width: 30%;
+  margin-right: 300px;
+}
+#best {
+  float: left;
+  width: 30%;
+  margin-left:10px;
+  margin-top: 22px;
+  font-size: 12px;
+  
+  width: 30%;
+  margin-right: 300px;
+}
+
+#facebook {
+  float:center;
+  margin-left: 255px;
+  margin-right: 1px;
+  margin-top: 95px;
+}
+#twitter {
+  float:center;
+  margin-right: 1px;
+}
+#googleplus {
+  float:center;
+  margin-left: 1px;
+}
+#instagram {
+  float:center;
+  margin-left: 1px;
+}
+#flickr {
+  float:center;
+  margin-left: 1px;
+}
+#pinterest {
+  float:center;
+  margin-left: 1px;
+  margin-right: 15px;
+}
+#wiki {
+  float: center; 
+  margin-left: 5px;
+}
+#mail {
+  float: center;
+  margin-right: 1px;
+}
 
 
-
-
-/* #diagboximg {
+#diagboximg {
   max-height: 150px;
 max-width: 1400px;
-width: 1420px;
-height: 40px;
+width: 1310px;
+height: 30px;
+opacity: 0.2;
+margin-left:5%;
+position: absolute;
+left: 0px;
+top: 195px;
+z-index: -1;
+}
+
+#chocolate-pizza {
+  position: absolute;
+left: 80px;
+top: 295px;
+z-index: -1;
+
+}
+
+h1 {
+  font-size: 55px; 
+  font-display: bold;
+  margin-block-start: 0.07em;
+    margin-block-end: 0.07em;
+  }
+h3 {
+  font-size: 130%;
+  color: rgba(0, 0, 0, 0.432);
+  margin-block-start: .01em;
+  margin-block-end: .01em;
+}
+#print {
+  position: absolute;
+  left: 1245px;
+  top: 75px;
+  z-index: -1;
+}
+#print2 {
+  position: absolute;
+  left: 1260px;
+  top: 55px;
+  z-index: -1;
+  color: rgba(131, 122, 122, 0.61)
+}
+
+#cpizzaimg {
+  float: left;
+  position: absolute;
+  left: 75px;
+  top: 525px;
+  width:85%;
+  z-index: -1;
+  z-index: inherit 1;
+}
+#instructions {
+  text-indent: 40px;
+  color:rgba(0, 0, 0, 0.644);
+  width:85%;
+  margin-top: 550px;
+  margin-left: 75px;
+  font-size: 22px;  
+}
+
+#notecard {
+  width:88%;
+  margin-left: 75px;
+  margin-top: 25px;
+  font-size: 22px;
+
+}
+#notecardtext1 {
+  float: left;
+  position: absolute;
+  font-size: 20px;
+  left: 195px;
+  top: 1805px;
+  width:85%;
+  z-index: +1;
+  z-index: inherit 1;  
+}
+#notecardtext2 {
+  float: left;
+  position: absolute;
+  font-size: 20px;
+  left: 195px;
+  top: 1855px;
+  width:85%;
+  z-index: +1;
+  z-index: inherit 1;  
+}
+#notecardtext3 {
+  float: left;
+  position: absolute;
+  font-size: 20px;
+  left: 195px;
+  top: 1905px;
+  width:85%;
+  z-index: +1;
+  z-index: inherit 1;  
+}
+#notecardtext4 {
+  float: left;
+  position: absolute;
+  font-size: 20px;
+  left: 195px;
+  top: 1955px;
+  width:85%;
+  z-index: +1;
+  z-index: inherit 1;  
+}
+#notecardtext5 {
+  float: left;
+  position: absolute;
+  font-size: 20px;
+  left: 195px;
+  top: 2000px;
+  width:85%;
+  z-index: +1;
+  z-index: inherit 1;  
+}
+#notecardtext6 {
+  float: left;
+  position: absolute;
+  font-size: 20px;
+  left: 195px;
+  top: 2045px;
+  width:85%;
+  z-index: +1;
+  z-index: inherit 1;  
+}
+#notecardtext7 {
+  float: left;
+  position: absolute;
+  font-size: 20px;
+  left: 995px;
+  top: 1805px;
+  width:85%;
+  z-index: +1;
+  z-index: inherit 1;  
+}
+#notecardtext8 {
+  float: left;
+  position: absolute;
+  font-size: 20px;
+  left: 995px;
+  top: 1855px;
+  width:85%;
+  z-index: +1;
+  z-index: inherit 1;  
+}
+#notecardtext9 {
+  float: left;
+  position: absolute;
+  font-size: 20px;
+  left: 995px;
+  top: 1900px;
+  width:85%;
+  z-index: +1;
+  z-index: inherit 1;  
+}
+#notecardtext10 {
+  float: left;
+  position: absolute;
+  font-size: 20px;
+  left: 995px;
+  top: 1945px;
+  width:85%;
+  z-index: +1;
+  z-index: inherit 1;  
+}
+
+#notecardtext11 {
+  float: left;
+  position: absolute;
+  font-size: 20px;
+  left: 995px;
+  top: 1995px;
+  width:85%;
+  z-index: +1;
+  z-index: inherit 1;  
+}
+#notecardtext12 {
+  float: left;
+  position: absolute;
+  font-size: 20px;
+  left: 995px;
+  top: 2040px;
+  width:85%;
+  z-index: +1;
+  z-index: inherit 1;  
+}
+
+#diagboximg2 {
+  max-height: 150px;
+max-width: 1400px;
+width: 1310px;
+height: 30px;
+opacity: 0.2;
+margin-left:5%;
+position: absolute;
+left: 15px;
+top: 2300px;
+z-index: -1;
+}
+
+/* hr {
+  background-image: url(https://github.com/DevStation-COCC/bend-201d3/blob/master/class-10/lab-a/lab-assets/hr-img.png?raw=true);
+  background-repeat: repeat-x;
+  height: 20px;
+
 } */
+
+#van-pic {
+  position: absolute;
+  width:10%;
+left: 105px;
+top: 2400px;
+z-index: -1;
+}
+
+#van-text-div {
+position: absolute;
+font-size: 26px;
+left: 305px;
+top: 2400px;
+z-index: -1;  
+}
+/* #vanessa {
+  font-style: bold,
+} */
+
+#share-button {
+  position: absolute;
+  border-radius: 10px;
+left: 1205px;
+top: 2400px;
+z-index: -1;
+}
+#footer {
+  float: center;  
+}
+ 
+ #footerDelicious {
+  position: absolute;
+  left: 650px;
+  top: 2750px;
+  z-index: -1;
+ }
+
+  #footer2 {
+    position: absolute;
+    left: 680px;
+    top: 2780px;
+    z-index: -1;
+  }
+  
+  #footerDinnerPNG {
+    position: absolute;
+    left: 765px;
+    top: 2680px;
+    z-index: -1;
+    margin-bottom:15px;
+  }
+  
+  #footer-line-with-image {
+    height: 1px;
+  }
+  #line1 {
+    position: absolute;
+    left: 811px;
+    top: 2685px;
+    z-index: -2;
+  }
+  #line2 {
+    position: absolute;
+    left: 0px;
+    top: 2685px;
+    z-index: -2;
+  }
