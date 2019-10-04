@@ -335,9 +335,18 @@ z-index: -1;
     margin-bottom:15px;
   }
   
-  hr {
+  #footer-line-with-image {
+    height: 1px;
+  }
+  #line1 {
     position: absolute;
-    left: 765px;
-    top: 2680px;
-    z-index: -1;
+    left: 811px;
+    top: 2685px;
+    z-index: -2;
+  }
+  #line2 {
+    position: absolute;
+    left: 0px;
+    top: 2685px;
+    z-index: -2;
   }
